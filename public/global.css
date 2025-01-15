@@ -106,8 +106,13 @@ section {
     display: block;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     line-height: 1;
+
 }
 
 ol,
@@ -155,6 +160,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+input::placeholder {
+    opacity: .7;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
 :root {
     --brown-lightest: #eae0d3;
     --brown-lighter: #916649;
@@ -170,6 +184,7 @@ body {
     --text-brown: #30302f;
     --text-brown-lighter: #965f36;
     --border-color: #a6836c;
+    --border-color-darker: #92674a;
 
     --pad-large: 5rem;
     --pad-med: 2.5rem;
@@ -230,7 +245,6 @@ li {
     cursor: pointer;
 }
 
-footer {}
 
 button {
     outline: none;

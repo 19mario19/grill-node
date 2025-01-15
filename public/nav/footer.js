@@ -105,7 +105,7 @@ const Footer = `
                 <form id="book-table" method="post">
                     <input type="date" id="date" name="date" id="">
                     <input type="time" id="time" name="time" id="">
-                    <select name="size" id="size">
+                    <select name="size" id="size" class="custom-select">
                         <option value="0">*Party size</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -160,6 +160,5 @@ const Footer = `
     </section>
 </footer>
 `
-
 
 export { Footer }
